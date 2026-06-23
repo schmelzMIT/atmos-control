@@ -1,0 +1,39 @@
+[2.373s] Invoking command in '/home/schmelz/atmos-control/src/srl_vehicle_mocap_odom': AMENT_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs LD_LIBRARY_PATH=/home/schmelz/atmos-control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/schmelz/atmos-control/build/vehicle_mocap_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vehicle_mocap_odom build --build-base /home/schmelz/atmos-control/build/vehicle_mocap_odom/build install --record /home/schmelz/atmos-control/build/vehicle_mocap_odom/install.log --single-version-externally-managed install_data
+[2.735s] running egg_info
+[2.747s] writing ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/PKG-INFO
+[2.752s] writing dependency_links to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/dependency_links.txt
+[2.753s] writing entry points to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/entry_points.txt
+[2.753s] writing requirements to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/requires.txt
+[2.754s] writing top-level names to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/top_level.txt
+[2.782s] reading manifest file '../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/SOURCES.txt'
+[2.784s] Traceback (most recent call last):
+[2.784s]   File "/home/schmelz/atmos-control/src/srl_vehicle_mocap_odom/setup.py", line 5, in <module>
+[2.784s]     setup(
+[2.784s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[2.784s]     return distutils.core.setup(**attrs)
+[2.784s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[2.785s]     return run_commands(dist)
+[2.785s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[2.785s]     dist.run_commands()
+[2.785s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[2.785s]     self.run_command(cmd)
+[2.786s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+[2.786s]     super().run_command(command)
+[2.787s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[2.787s]     cmd_obj.run()
+[2.787s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[2.788s]     self.find_sources()
+[2.788s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[2.789s]     mm.run()
+[2.790s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[2.790s]     self.prune_file_list()
+[2.791s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[2.791s]     super().prune_file_list()
+[2.791s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[2.791s]     base_dir = self.distribution.get_fullname()
+[2.791s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[2.791s]     return _distribution_fullname(self.get_name(), self.get_version())
+[2.792s]   File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[2.792s]     canonicalize_version(version, strip_trailing_zero=False),
+[2.792s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[2.823s] Invoked command in '/home/schmelz/atmos-control/src/srl_vehicle_mocap_odom' returned '1': AMENT_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs LD_LIBRARY_PATH=/home/schmelz/atmos-control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/schmelz/atmos-control/build/vehicle_mocap_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vehicle_mocap_odom build --build-base /home/schmelz/atmos-control/build/vehicle_mocap_odom/build install --record /home/schmelz/atmos-control/build/vehicle_mocap_odom/install.log --single-version-externally-managed install_data

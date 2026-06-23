@@ -1,0 +1,37 @@
+running egg_info
+writing ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/PKG-INFO
+writing dependency_links to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/dependency_links.txt
+writing entry points to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/entry_points.txt
+writing requirements to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/requires.txt
+writing top-level names to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/top_level.txt
+reading manifest file '../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/SOURCES.txt'
+Traceback (most recent call last):
+  File "/home/schmelz/atmos-control/src/srl_vehicle_mocap_odom/setup.py", line 5, in <module>
+    setup(
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+    return run_commands(dist)
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+    dist.run_commands()
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+    self.run_command(cmd)
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+    super().run_command(command)
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+    cmd_obj.run()
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+    self.find_sources()
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+    mm.run()
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+    self.prune_file_list()
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+    super().prune_file_list()
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+    base_dir = self.distribution.get_fullname()
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+    return _distribution_fullname(self.get_name(), self.get_version())
+  File "/home/schmelz/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+    canonicalize_version(version, strip_trailing_zero=False),
+TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'

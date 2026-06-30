@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ee08994d9ce2df46e833.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "mpc_msgs__py",
+					"jsonFile" : "directory-mpc_msgs__py-344d302ebe4be2087faf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/schmelz/atmos-control/build/mpc_msgs/mpc_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "mpc_msgs__rs",
+					"jsonFile" : "directory-mpc_msgs__rs-2ffa8cb7155dd20fe42c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/schmelz/atmos-control/build/mpc_msgs/mpc_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "mpc_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mpc_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mpc_msgs_egg-4cc8c0b0fbcc3263a417.json",
+					"name" : "ament_cmake_python_build_mpc_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mpc_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mpc_msgs-71ef8f76014f779a0eb1.json",
+					"name" : "ament_cmake_python_copy_mpc_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs-950491d7fceb8b597953.json",
+					"name" : "mpc_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__cpp-dc83556b2debb89e1d1c.json",
+					"name" : "mpc_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mpc_msgs__py::@8172dc9f1a7c1aab6629",
+					"jsonFile" : "target-mpc_msgs__py-249a15e66113048a87f1.json",
+					"name" : "mpc_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_generator_c-65a849fb053df12670c4.json",
+					"name" : "mpc_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_generator_py-0d73d6c17a828edadb00.json",
+					"name" : "mpc_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_c-96aa25becae11d3f0e23.json",
+					"name" : "mpc_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_c__pyext-f214eaaee1ca1a2ce16b.json",
+					"name" : "mpc_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_cpp-bc7d5e61ef087d36456e.json",
+					"name" : "mpc_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_fastrtps_c-651830a91fb7f327d47d.json",
+					"name" : "mpc_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_fastrtps_c__pyext-c6545c41d9ab9907d291.json",
+					"name" : "mpc_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_fastrtps_cpp-39b7e2155a80e1bda65a.json",
+					"name" : "mpc_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_introspection_c-7034f8666d5c88026976.json",
+					"name" : "mpc_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_introspection_c__pyext-52a226cf01440edc1b90.json",
+					"name" : "mpc_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_introspection_cpp-78838ea6ff0f7c2e2752.json",
+					"name" : "mpc_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mpc_msgs__rs::@a1148737b2967dd64c4a",
+					"jsonFile" : "target-mpc_msgs__rs-b14d3807ad022b6f19fd.json",
+					"name" : "mpc_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs_uninstall-cf5a3cbc4d5b47ce9e27.json",
+					"name" : "mpc_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-32c6a39346d1b9019d7f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/schmelz/atmos-control/build/mpc_msgs",
+		"source" : "/home/schmelz/atmos-control/src/px4-mpc/mpc_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

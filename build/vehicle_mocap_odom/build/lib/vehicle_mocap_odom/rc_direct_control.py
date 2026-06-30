@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, QoSReliabilityPolicy, QoSHistoryPolicy, QoSDurabilityPolicy
-from px4_msgs.msg import ManualControlInput, ActuatorMotors, OffboardControlMode
+from px4_msgs.msg import ManualControlSetpoint, ActuatorMotors, OffboardControlMode
 import socket
 import re
 
@@ -43,8 +43,8 @@ class RCDirectControl(Node):
             qos_pub
         )
         self.rc_sub = self.create_subscription(
-            ManualControlInput,
-            f'/{namespace}/fmu/out/manual_control_input',
+            ManualControlSetpoint,
+            f'/{namespace}/fmu/out/manual_control_setpoint',
             self.rc_callback,
             qos_sub
         )
@@ -56,11 +56,11 @@ class RCDirectControl(Node):
 
         self.create_timer(0.05, self.publish)  # 20 Hz
 
-    def rc_callback(self, msg: ManualControlInput):
-        self.roll = msg.y
-        self.pitch = msg.x
-        self.yaw = msg.r
-        self.throttle = msg.z
+    def rc_callback(self, msg: ManualControlSetpoint):
+        self.roll = msg.roll
+        self.pitch = msg.pitch
+        self.yaw = msg.yaw
+        self.throttle = msg.throttle
 
     def deadband(self, value):
         return value if abs(value) > THRESHOLD else 0.0

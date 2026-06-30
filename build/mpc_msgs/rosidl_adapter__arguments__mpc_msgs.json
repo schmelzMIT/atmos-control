@@ -1,0 +1,6 @@
+{
+  "package_name": "mpc_msgs",
+  "non_idl_tuples": [
+    "/home/schmelz/atmos-control/src/px4-mpc/mpc_msgs:srv/SetPose.srv"
+  ]
+}

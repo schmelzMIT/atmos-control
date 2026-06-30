@@ -1,0 +1,22 @@
+[1.270s] Invoking command in '/home/schmelz/atmos-control/build/vehicle_mocap_odom': AMENT_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs LD_LIBRARY_PATH=/home/schmelz/atmos-control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/schmelz/atmos-control/build/vehicle_mocap_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/schmelz/atmos-control/build/vehicle_mocap_odom/build --no-deps symlink_data --force
+[1.532s] running develop
+[1.685s] running egg_info
+[1.686s] writing vehicle_mocap_odom.egg-info/PKG-INFO
+[1.686s] writing dependency_links to vehicle_mocap_odom.egg-info/dependency_links.txt
+[1.686s] writing entry points to vehicle_mocap_odom.egg-info/entry_points.txt
+[1.686s] writing requirements to vehicle_mocap_odom.egg-info/requires.txt
+[1.686s] writing top-level names to vehicle_mocap_odom.egg-info/top_level.txt
+[1.688s] reading manifest file 'vehicle_mocap_odom.egg-info/SOURCES.txt'
+[1.689s] writing manifest file 'vehicle_mocap_odom.egg-info/SOURCES.txt'
+[1.690s] running build_ext
+[1.690s] Creating /home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/python3.10/site-packages/vehicle-mocap-odom.egg-link (link to .)
+[1.691s] Installing autonomous_control_node script to /home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/vehicle_mocap_odom
+[1.692s] Installing open_loop_sequence_node script to /home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/vehicle_mocap_odom
+[1.692s] Installing rc_direct_control_node script to /home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/vehicle_mocap_odom
+[1.692s] Installing vehicle_mocap_odom_node script to /home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/vehicle_mocap_odom
+[1.692s] 
+[1.692s] Installed /home/schmelz/atmos-control/build/vehicle_mocap_odom
+[1.692s] running symlink_data
+[1.692s] symbolically linking /home/schmelz/atmos-control/build/vehicle_mocap_odom/resource/vehicle_mocap_odom -> /home/schmelz/atmos-control/install/vehicle_mocap_odom/share/ament_index/resource_index/packages
+[1.692s] symbolically linking /home/schmelz/atmos-control/build/vehicle_mocap_odom/package.xml -> /home/schmelz/atmos-control/install/vehicle_mocap_odom/share/vehicle_mocap_odom
+[1.718s] Invoked command in '/home/schmelz/atmos-control/build/vehicle_mocap_odom' returned '0': AMENT_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs LD_LIBRARY_PATH=/home/schmelz/atmos-control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/schmelz/atmos-control/build/vehicle_mocap_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/schmelz/atmos-control/build/vehicle_mocap_odom/build --no-deps symlink_data --force

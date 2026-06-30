@@ -4,3 +4,6 @@ source;share/vehicle_mocap_odom/hook/pythonpath.sh
 source;share/vehicle_mocap_odom/hook/ament_prefix_path.ps1
 source;share/vehicle_mocap_odom/hook/ament_prefix_path.dsv
 source;share/vehicle_mocap_odom/hook/ament_prefix_path.sh
+source;../../build/vehicle_mocap_odom/share/vehicle_mocap_odom/hook/pythonpath_develop.ps1
+source;../../build/vehicle_mocap_odom/share/vehicle_mocap_odom/hook/pythonpath_develop.dsv
+source;../../build/vehicle_mocap_odom/share/vehicle_mocap_odom/hook/pythonpath_develop.sh

@@ -1,0 +1,4 @@
+srv/SetPose.idl
+srv/SetPose.srv
+srv/SetPose_Request.msg
+srv/SetPose_Response.msg

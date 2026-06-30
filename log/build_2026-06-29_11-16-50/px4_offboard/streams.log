@@ -1,0 +1,47 @@
+[1.553s] Invoking command in '/home/schmelz/atmos-control/src/px4-offboard': AMENT_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs LD_LIBRARY_PATH=/home/schmelz/atmos-control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/schmelz/atmos-control/build/px4_offboard/prefix_override:/home/schmelz/atmos-control/ros2_workspace/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_workspace) /home/schmelz/atmos-control/ros2_workspace/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/schmelz/atmos-control/build/px4_offboard/build install --record /home/schmelz/atmos-control/build/px4_offboard/install.log --single-version-externally-managed install_data
+[1.905s] running egg_info
+[1.906s] creating ../../build/px4_offboard/px4_offboard.egg-info
+[1.906s] writing ../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[1.907s] writing dependency_links to ../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[1.907s] writing entry points to ../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[1.907s] writing requirements to ../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[1.907s] writing top-level names to ../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[1.908s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[1.910s] reading manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[1.910s] adding license file 'LICENSE'
+[1.911s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[1.912s] running build
+[1.913s] running build_py
+[1.913s] creating /home/schmelz/atmos-control/build/px4_offboard/build
+[1.914s] creating /home/schmelz/atmos-control/build/px4_offboard/build/lib
+[1.914s] creating /home/schmelz/atmos-control/build/px4_offboard/build/lib/px4_offboard
+[1.916s] copying px4_offboard/visualizer.py -> /home/schmelz/atmos-control/build/px4_offboard/build/lib/px4_offboard
+[1.917s] copying px4_offboard/offboard_control.py -> /home/schmelz/atmos-control/build/px4_offboard/build/lib/px4_offboard
+[1.918s] copying px4_offboard/__init__.py -> /home/schmelz/atmos-control/build/px4_offboard/build/lib/px4_offboard
+[1.919s] running install
+[1.919s] running install_lib
+[1.919s] creating /home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[1.919s] copying /home/schmelz/atmos-control/build/px4_offboard/build/lib/px4_offboard/visualizer.py -> /home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[1.920s] copying /home/schmelz/atmos-control/build/px4_offboard/build/lib/px4_offboard/offboard_control.py -> /home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[1.920s] copying /home/schmelz/atmos-control/build/px4_offboard/build/lib/px4_offboard/__init__.py -> /home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[1.921s] byte-compiling /home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/visualizer.py to visualizer.cpython-310.pyc
+[1.922s] byte-compiling /home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/offboard_control.py to offboard_control.cpython-310.pyc
+[1.923s] byte-compiling /home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/__init__.py to __init__.cpython-310.pyc
+[1.924s] running install_data
+[1.924s] creating /home/schmelz/atmos-control/install/px4_offboard/share/ament_index
+[1.924s] creating /home/schmelz/atmos-control/install/px4_offboard/share/ament_index/resource_index
+[1.924s] creating /home/schmelz/atmos-control/install/px4_offboard/share/ament_index/resource_index/packages
+[1.924s] copying resource/px4_offboard -> /home/schmelz/atmos-control/install/px4_offboard/share/ament_index/resource_index/packages
+[1.924s] copying resource/visualize.rviz -> /home/schmelz/atmos-control/install/px4_offboard/share/ament_index/resource_index/packages
+[1.925s] copying package.xml -> /home/schmelz/atmos-control/install/px4_offboard/share/px4_offboard
+[1.925s] copying launch/visualize.launch.py -> /home/schmelz/atmos-control/install/px4_offboard/share/px4_offboard
+[1.925s] copying launch/offboard_position_control.launch.py -> /home/schmelz/atmos-control/install/px4_offboard/share/px4_offboard
+[1.926s] copying launch/offboard_hardware_position_control.launch.py -> /home/schmelz/atmos-control/install/px4_offboard/share/px4_offboard
+[1.927s] copying resource/visualize.rviz -> /home/schmelz/atmos-control/install/px4_offboard/share/px4_offboard
+[1.928s] running install_egg_info
+[1.931s] Copying ../../build/px4_offboard/px4_offboard.egg-info to /home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info
+[1.932s] running install_scripts
+[1.962s] Installing offboard_control script to /home/schmelz/atmos-control/install/px4_offboard/lib/px4_offboard
+[1.963s] Installing visualizer script to /home/schmelz/atmos-control/install/px4_offboard/lib/px4_offboard
+[1.964s] writing list of installed files to '/home/schmelz/atmos-control/build/px4_offboard/install.log'
+[2.001s] Invoked command in '/home/schmelz/atmos-control/src/px4-offboard' returned '0': AMENT_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs LD_LIBRARY_PATH=/home/schmelz/atmos-control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/schmelz/atmos-control/build/px4_offboard/prefix_override:/home/schmelz/atmos-control/ros2_workspace/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_workspace) /home/schmelz/atmos-control/ros2_workspace/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/schmelz/atmos-control/build/px4_offboard/build install --record /home/schmelz/atmos-control/build/px4_offboard/install.log --single-version-externally-managed install_data

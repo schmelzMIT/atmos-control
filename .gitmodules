@@ -1,0 +1,3 @@
+[submodule "src/srl_vehicle_mocap_odom"]
+	path = src/srl_vehicle_mocap_odom
+	url = git@github.com:schmelzMIT/srl_vehicle_mocap_odom.git

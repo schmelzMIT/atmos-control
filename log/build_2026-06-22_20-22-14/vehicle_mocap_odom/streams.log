@@ -1,0 +1,25 @@
+[2.482s] Invoking command in '/home/schmelz/atmos-control/src/srl_vehicle_mocap_odom': AMENT_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs LD_LIBRARY_PATH=/home/schmelz/atmos-control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/schmelz/atmos-control/build/vehicle_mocap_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vehicle_mocap_odom build --build-base /home/schmelz/atmos-control/build/vehicle_mocap_odom/build install --record /home/schmelz/atmos-control/build/vehicle_mocap_odom/install.log --single-version-externally-managed install_data
+[2.867s] running egg_info
+[2.868s] writing ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/PKG-INFO
+[2.875s] writing dependency_links to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/dependency_links.txt
+[2.876s] writing entry points to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/entry_points.txt
+[2.876s] writing requirements to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/requires.txt
+[2.876s] writing top-level names to ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/top_level.txt
+[2.879s] reading manifest file '../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/SOURCES.txt'
+[2.881s] writing manifest file '../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/SOURCES.txt'
+[2.882s] running build
+[2.882s] running build_py
+[2.883s] copying vehicle_mocap_odom/rc_direct_control.py -> /home/schmelz/atmos-control/build/vehicle_mocap_odom/build/lib/vehicle_mocap_odom
+[2.883s] running install
+[2.884s] running install_lib
+[2.887s] copying /home/schmelz/atmos-control/build/vehicle_mocap_odom/build/lib/vehicle_mocap_odom/rc_direct_control.py -> /home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/python3.10/site-packages/vehicle_mocap_odom
+[2.889s] byte-compiling /home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/python3.10/site-packages/vehicle_mocap_odom/rc_direct_control.py to rc_direct_control.cpython-310.pyc
+[2.892s] running install_data
+[2.892s] running install_egg_info
+[2.895s] removing '/home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/python3.10/site-packages/vehicle_mocap_odom-0.0.0-py3.10.egg-info' (and everything under it)
+[2.896s] Copying ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info to /home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/python3.10/site-packages/vehicle_mocap_odom-0.0.0-py3.10.egg-info
+[2.901s] running install_scripts
+[2.936s] Installing rc_direct_control_node script to /home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/vehicle_mocap_odom
+[2.937s] Installing vehicle_mocap_odom_node script to /home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/vehicle_mocap_odom
+[2.938s] writing list of installed files to '/home/schmelz/atmos-control/build/vehicle_mocap_odom/install.log'
+[2.983s] Invoked command in '/home/schmelz/atmos-control/src/srl_vehicle_mocap_odom' returned '0': AMENT_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs LD_LIBRARY_PATH=/home/schmelz/atmos-control/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/schmelz/atmos-control/build/vehicle_mocap_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/schmelz/atmos-control/install/vehicle_mocap_odom/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vehicle_mocap_odom build --build-base /home/schmelz/atmos-control/build/vehicle_mocap_odom/build install --record /home/schmelz/atmos-control/build/vehicle_mocap_odom/install.log --single-version-externally-managed install_data

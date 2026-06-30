@@ -1,0 +1,123 @@
+[1.524s] Invoking command in '/home/schmelz/atmos-control/src/px4-mpc/px4_mpc': AMENT_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_offboard:/home/schmelz/atmos-control/install/px4_msgs:/home/schmelz/atmos-control/install/mpc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs:/home/schmelz/atmos-control/install/mpc_msgs LD_LIBRARY_PATH=/home/schmelz/atmos-control/install/px4_msgs/lib:/home/schmelz/atmos-control/install/mpc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/schmelz/atmos-control/build/px4_mpc/prefix_override:/home/schmelz/atmos-control/ros2_workspace/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_msgs/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/mpc_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_workspace) /home/schmelz/atmos-control/ros2_workspace/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_mpc build --build-base /home/schmelz/atmos-control/build/px4_mpc/build install --record /home/schmelz/atmos-control/build/px4_mpc/install.log --single-version-externally-managed install_data
+[1.772s] running egg_info
+[1.772s] creating ../../../build/px4_mpc/px4_mpc.egg-info
+[1.773s] writing ../../../build/px4_mpc/px4_mpc.egg-info/PKG-INFO
+[1.773s] writing dependency_links to ../../../build/px4_mpc/px4_mpc.egg-info/dependency_links.txt
+[1.773s] writing entry points to ../../../build/px4_mpc/px4_mpc.egg-info/entry_points.txt
+[1.773s] writing requirements to ../../../build/px4_mpc/px4_mpc.egg-info/requires.txt
+[1.774s] writing top-level names to ../../../build/px4_mpc/px4_mpc.egg-info/top_level.txt
+[1.774s] writing manifest file '../../../build/px4_mpc/px4_mpc.egg-info/SOURCES.txt'
+[1.776s] reading manifest file '../../../build/px4_mpc/px4_mpc.egg-info/SOURCES.txt'
+[1.777s] writing manifest file '../../../build/px4_mpc/px4_mpc.egg-info/SOURCES.txt'
+[1.778s] running build
+[1.778s] running build_py
+[1.778s] creating /home/schmelz/atmos-control/build/px4_mpc/build
+[1.778s] creating /home/schmelz/atmos-control/build/px4_mpc/build/lib
+[1.778s] creating /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc
+[1.779s] copying px4_mpc/visualization.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc
+[1.779s] copying px4_mpc/test_multirotor_rate_ocp.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc
+[1.780s] copying px4_mpc/mpc_spacecraft.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc
+[1.781s] copying px4_mpc/test_multirotor_rate_closedloop.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc
+[1.781s] copying px4_mpc/rviz_pos_marker.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc
+[1.782s] copying px4_mpc/mpc_quadrotor.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc
+[1.782s] copying px4_mpc/__init__.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc
+[1.783s] creating /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers
+[1.783s] copying px4_mpc/controllers/spacecraft_rate_mpc.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers
+[1.783s] copying px4_mpc/controllers/spacecraft_wrench_mpc.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers
+[1.784s] copying px4_mpc/controllers/spacecraft_offset_free_wrench_mpc.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers
+[1.784s] copying px4_mpc/controllers/multirotor_rate_mpc.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers
+[1.785s] copying px4_mpc/controllers/spacecraft_direct_allocation_mpc.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers
+[1.786s] copying px4_mpc/controllers/spacecraft_wrench_lqr.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers
+[1.786s] copying px4_mpc/controllers/__init__.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers
+[1.786s] creating /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test
+[1.787s] copying px4_mpc/test/test_copyright.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test
+[1.787s] copying px4_mpc/test/test_setpoints.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test
+[1.788s] copying px4_mpc/test/test_pep257.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test
+[1.788s] copying px4_mpc/test/test_flake8.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test
+[1.789s] copying px4_mpc/test/__init__.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test
+[1.789s] creating /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/models
+[1.789s] copying px4_mpc/models/spacecraft_rate_model.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/models
+[1.790s] copying px4_mpc/models/spacecraft_wrench_model.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/models
+[1.790s] copying px4_mpc/models/multirotor_rate_model.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/models
+[1.791s] copying px4_mpc/models/spacecraft_direct_allocation_model.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/models
+[1.792s] copying px4_mpc/models/__init__.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/models
+[1.792s] creating /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/simulation
+[1.792s] copying px4_mpc/simulation/basic_environment.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/simulation
+[1.793s] copying px4_mpc/simulation/__init__.py -> /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/simulation
+[1.793s] running install
+[1.794s] running install_lib
+[1.795s] creating /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc
+[1.795s] creating /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers
+[1.795s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers/spacecraft_rate_mpc.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers
+[1.795s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers/spacecraft_wrench_mpc.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers
+[1.796s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers/spacecraft_offset_free_wrench_mpc.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers
+[1.796s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers/multirotor_rate_mpc.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers
+[1.796s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers/spacecraft_direct_allocation_mpc.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers
+[1.796s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers/spacecraft_wrench_lqr.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers
+[1.796s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/controllers/__init__.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers
+[1.796s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/visualization.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc
+[1.797s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test_multirotor_rate_ocp.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc
+[1.797s] creating /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test
+[1.797s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test/test_copyright.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test
+[1.797s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test/test_setpoints.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test
+[1.798s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test/test_pep257.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test
+[1.798s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test/test_flake8.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test
+[1.798s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test/__init__.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test
+[1.798s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/mpc_spacecraft.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc
+[1.798s] creating /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/models
+[1.799s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/models/spacecraft_rate_model.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/models
+[1.799s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/models/spacecraft_wrench_model.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/models
+[1.799s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/models/multirotor_rate_model.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/models
+[1.799s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/models/spacecraft_direct_allocation_model.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/models
+[1.799s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/models/__init__.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/models
+[1.800s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/test_multirotor_rate_closedloop.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc
+[1.800s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/rviz_pos_marker.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc
+[1.800s] creating /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/simulation
+[1.800s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/simulation/basic_environment.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/simulation
+[1.800s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/simulation/__init__.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/simulation
+[1.800s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/mpc_quadrotor.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc
+[1.800s] copying /home/schmelz/atmos-control/build/px4_mpc/build/lib/px4_mpc/__init__.py -> /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc
+[1.801s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers/spacecraft_rate_mpc.py to spacecraft_rate_mpc.cpython-310.pyc
+[1.802s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers/spacecraft_wrench_mpc.py to spacecraft_wrench_mpc.cpython-310.pyc
+[1.804s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers/spacecraft_offset_free_wrench_mpc.py to spacecraft_offset_free_wrench_mpc.cpython-310.pyc
+[1.806s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers/multirotor_rate_mpc.py to multirotor_rate_mpc.cpython-310.pyc
+[1.807s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers/spacecraft_direct_allocation_mpc.py to spacecraft_direct_allocation_mpc.cpython-310.pyc
+[1.808s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers/spacecraft_wrench_lqr.py to spacecraft_wrench_lqr.cpython-310.pyc
+[1.809s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/controllers/__init__.py to __init__.cpython-310.pyc
+[1.809s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/visualization.py to visualization.cpython-310.pyc
+[1.810s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test_multirotor_rate_ocp.py to test_multirotor_rate_ocp.cpython-310.pyc
+[1.811s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test/test_copyright.py to test_copyright.cpython-310.pyc
+[1.811s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test/test_setpoints.py to test_setpoints.cpython-310.pyc
+[1.812s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test/test_pep257.py to test_pep257.cpython-310.pyc
+[1.813s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test/test_flake8.py to test_flake8.cpython-310.pyc
+[1.813s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test/__init__.py to __init__.cpython-310.pyc
+[1.813s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/mpc_spacecraft.py to mpc_spacecraft.cpython-310.pyc
+[1.817s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/models/spacecraft_rate_model.py to spacecraft_rate_model.cpython-310.pyc
+[1.818s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/models/spacecraft_wrench_model.py to spacecraft_wrench_model.cpython-310.pyc
+[1.819s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/models/multirotor_rate_model.py to multirotor_rate_model.cpython-310.pyc
+[1.820s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/models/spacecraft_direct_allocation_model.py to spacecraft_direct_allocation_model.cpython-310.pyc
+[1.821s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/models/__init__.py to __init__.cpython-310.pyc
+[1.821s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/test_multirotor_rate_closedloop.py to test_multirotor_rate_closedloop.cpython-310.pyc
+[1.822s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/rviz_pos_marker.py to rviz_pos_marker.cpython-310.pyc
+[1.825s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/simulation/basic_environment.py to basic_environment.cpython-310.pyc
+[1.827s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/simulation/__init__.py to __init__.cpython-310.pyc
+[1.827s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/mpc_quadrotor.py to mpc_quadrotor.cpython-310.pyc
+[1.829s] byte-compiling /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/__init__.py to __init__.cpython-310.pyc
+[1.829s] running install_data
+[1.829s] creating /home/schmelz/atmos-control/install/px4_mpc/share/ament_index
+[1.829s] creating /home/schmelz/atmos-control/install/px4_mpc/share/ament_index/resource_index
+[1.829s] creating /home/schmelz/atmos-control/install/px4_mpc/share/ament_index/resource_index/packages
+[1.830s] copying resource/px4_mpc -> /home/schmelz/atmos-control/install/px4_mpc/share/ament_index/resource_index/packages
+[1.830s] copying package.xml -> /home/schmelz/atmos-control/install/px4_mpc/share/px4_mpc
+[1.830s] copying px4_mpc/launch/mpc_quadrotor_launch.py -> /home/schmelz/atmos-control/install/px4_mpc/share/px4_mpc
+[1.831s] copying px4_mpc/launch/mpc_spacecraft_launch.py -> /home/schmelz/atmos-control/install/px4_mpc/share/px4_mpc
+[1.831s] copying px4_mpc/config/config.rviz -> /home/schmelz/atmos-control/install/px4_mpc/share/px4_mpc
+[1.832s] running install_egg_info
+[1.834s] Copying ../../../build/px4_mpc/px4_mpc.egg-info to /home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages/px4_mpc-0.0.0-py3.10.egg-info
+[1.835s] running install_scripts
+[1.857s] Installing mpc_quadrotor script to /home/schmelz/atmos-control/install/px4_mpc/lib/px4_mpc
+[1.857s] Installing mpc_spacecraft script to /home/schmelz/atmos-control/install/px4_mpc/lib/px4_mpc
+[1.858s] Installing rviz_pos_marker script to /home/schmelz/atmos-control/install/px4_mpc/lib/px4_mpc
+[1.858s] Installing test_setpoints script to /home/schmelz/atmos-control/install/px4_mpc/lib/px4_mpc
+[1.859s] writing list of installed files to '/home/schmelz/atmos-control/build/px4_mpc/install.log'
+[1.888s] Invoked command in '/home/schmelz/atmos-control/src/px4-mpc/px4_mpc' returned '0': AMENT_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_offboard:/home/schmelz/atmos-control/install/px4_msgs:/home/schmelz/atmos-control/install/mpc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/schmelz/atmos-control/install/px4_msgs:/home/schmelz/atmos-control/install/mpc_msgs LD_LIBRARY_PATH=/home/schmelz/atmos-control/install/px4_msgs/lib:/home/schmelz/atmos-control/install/mpc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/schmelz/atmos-control/build/px4_mpc/prefix_override:/home/schmelz/atmos-control/ros2_workspace/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/schmelz/atmos-control/install/px4_mpc/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_offboard/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/px4_msgs/lib/python3.10/site-packages:/home/schmelz/atmos-control/install/mpc_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_workspace) /home/schmelz/atmos-control/ros2_workspace/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_mpc build --build-base /home/schmelz/atmos-control/build/px4_mpc/build install --record /home/schmelz/atmos-control/build/px4_mpc/install.log --single-version-externally-managed install_data

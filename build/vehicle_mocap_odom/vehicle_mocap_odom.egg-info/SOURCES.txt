@@ -1,4 +1,3 @@
-README.md
 package.xml
 setup.cfg
 setup.py
@@ -11,5 +10,14 @@ setup.py
 ../../build/vehicle_mocap_odom/vehicle_mocap_odom.egg-info/zip-safe
 resource/vehicle_mocap_odom
 vehicle_mocap_odom/__init__.py
+vehicle_mocap_odom/autonomous_control.py
+vehicle_mocap_odom/open_loop_sequence.py
 vehicle_mocap_odom/rc_direct_control.py
 vehicle_mocap_odom/vehicle_mocap_odom.py
+vehicle_mocap_odom.egg-info/PKG-INFO
+vehicle_mocap_odom.egg-info/SOURCES.txt
+vehicle_mocap_odom.egg-info/dependency_links.txt
+vehicle_mocap_odom.egg-info/entry_points.txt
+vehicle_mocap_odom.egg-info/requires.txt
+vehicle_mocap_odom.egg-info/top_level.txt
+vehicle_mocap_odom.egg-info/zip-safe
